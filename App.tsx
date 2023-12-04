@@ -1,12 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
+import 'react-native-gesture-handler';
 import { StyleSheet, Text, View } from 'react-native';
+import TopTabNavigator from './Navigators/MainNavigator';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <TopTabNavigator/>
+   
   );
 }
 
